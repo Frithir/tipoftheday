@@ -89,10 +89,10 @@ class App extends Component {
           </div>
           <Container className={`cardGrid`} maxWidth="md">
             {/* End hero unit */}
-            <Grid container spacing={4}>
+            <Grid container spacing={2}>
               {data.map((tip, i) => {
                 return (
-                  <Grid item key={tip.title + i} xs={12} sm={6} md={4}>
+                  <Grid item key={tip.title + i} xs={8} sm={4} md={2}>
                     <Card className={`card`}>
                       <div className="code">
                         <pre>
